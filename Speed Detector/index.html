@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Detector</title>
+    <!-- link css and JavaScript files -->
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="index.js"></script>
+
+</head>
+
+<body>
+    <!-- make a div for container where everything is to be placed above background -->
+    <div class="container">
+        <!-- Have a sub-header to be situated inside the container -->
+        <h2>Speed Detector</h2>
+        <!-- Make flex-box that contains a card -->
+        <div class="flex-box">
+            <!-- Make a card where the inputs for information, the button, and expected return message will appear. -->
+            <div class="card">
+                <!-- Input div for logging in information to be calculated -->
+                <div class="input">
+                    <input type="number" id="speed" placeholder="Speed of Vehicle"/>
+                    <!-- A button which when clicked calculates information keyed in -->
+                    <button onclick="cal()">Calculate</button>
+                    <!-- A spot that allows information expected to appear -->
+                    <p id="demo"></p>
+                    <p id="demo1"></p>
+                    <p id="demo2"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

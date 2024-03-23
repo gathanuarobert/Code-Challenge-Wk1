@@ -1,0 +1,84 @@
+/*Style container here */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #133955;
+}
+
+/*style container card here*/
+.container .card{
+    width: 430px;
+    height: 40vh;
+    border-radius: 20px;
+    background: crimson;
+    border-top: #fff;
+    box-shadow: black;
+}
+
+/*Style flex-box here*/
+.flex-box{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+/*Styling of h2*/
+h2{
+    position: relative;
+    top: 20%; 
+    text-align: center;
+    padding-bottom: 1px;
+    font-family:sans-serif;
+    color: antiquewhite;
+}
+
+/*Style input here*/
+.input input{
+    width: 95%;
+    height: 42px;
+    margin: 12px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    text-indent: 18px;
+    border-radius: 20px;
+    padding: 3px 2px;
+    transition: transform 1s;
+}
+
+/*Style input div here to make it rotate at an angle when clicked*/
+.input input:hover{
+    transform: perspective(200px) rotateY(10deg)
+}
+
+/*Style the placeholder in input and how it appears when there is no entry*/
+::placeholder{
+    font-weight: bold;
+    text-indent: 30px;
+    padding: 3px 5px;
+    color: #000; 
+}
+
+/*Style the button here*/
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 14px 65px;
+    color: crimson;
+    margin: 1px 90px;
+    font-size: 15px;
+    border-radius: 30px;
+    box-shadow: #000;
+    background-image: linear-gradient(#999, #444);
+    transition: transform 1s;
+}
+
+/*Style the info that appears when expected info is keyed in*/
+p{
+    font-weight: bold;
+    padding: 1px 1px;
+    color: antiquewhite;
+    text-align: center;
+}
