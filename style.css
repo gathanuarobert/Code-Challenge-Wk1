@@ -1,0 +1,16 @@
+body{
+    background-color: peru;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+ul{
+    font-size: large;
+    display:flex;
+    gap: 25px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
