@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*style the contauner div*/
 .container{
     width: 100%;
     height: 100vh;
     background-color: #672A70;
 }
-
+/*style card*/
 .container .card{
     width: 430px;
     height: 65vh;
@@ -18,13 +18,14 @@
     border-top: #fff;
     box-shadow: black;
 }
-
+/*style the flex-box*/
 .flex-box{
     display: grid;
     place-content: center;
     min-height: 100vh;
 }
 
+/*style h2*/
 h2{
     position: relative;
     top: 20%; 
@@ -33,7 +34,7 @@ h2{
     font-family:sans-serif;
     color: antiquewhite;
 }
-
+/*style the input*/
 .input input{
     width: 95%;
     height: 42px;
@@ -46,17 +47,18 @@ h2{
     padding: 3px 2px;
     transition: transform 1s;
 }
-
+/*make the input rotate */
 .input input:hover{
     transform: perspective(200px) rotateY(10deg);
 }
+/*decorate the placeholder*/
 ::placeholder{
     font-weight: bold;
     text-indent: 30px;
     padding: 3px 5px;
     color: #000; 
 }
-
+/*style the button*/
 button{
     cursor: pointer;
     outline: none;
@@ -71,10 +73,11 @@ button{
     background-image: linear-gradient(#999, #444);
     transition: transform 1s;
 }
-
+/*style the button to rotate*/
 button:hover{
     transform: perspective(200px) rotateY(30deg);
 }
+
 p{
     font-weight: bold;
     padding: 3px 15px;

@@ -1,17 +1,19 @@
+//make a function cal() here
 function cal(){
+    //make 3 variables html, css, js
     let HTML = document.getElementById("HTML").value;
     let css = document.getElementById("css").value;
     let js = document.getElementById("js").value;
-
+//variable for the sum
 const sum = parseFloat(HTML) + parseFloat(css) + parseFloat(js);
 
 document.getElementById("demo").innerHTML = `Total mark is =${sum}`;
-
+//variable for the percentage
 const percentage = (sum / 300) * 100;
-document.getAnimations("demo1").innerHTML = `Percentage is = ${percentage}`;
+document.getElementById("demo1").innerHTML = `Percentage is = ${percentage}`;
 
 
-
+//conditions to be met for code to run
 if(percentage >79){
     document.getElementById("demo2").innerHTML = `A`;
 }
