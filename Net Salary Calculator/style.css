@@ -42,7 +42,7 @@ button{
     box-shadow: #672A70;
     background-color: #672A70;
     transition: transform 1s;
-}
+} 
 /*position the input area centrally*/
 .input{
     display: grid;
